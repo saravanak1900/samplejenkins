@@ -10,6 +10,7 @@ pipeline {
             }
         stage('apply visa'){
         echo "Awesome you got a super offer in UK"
+        echo "UK citizen"
         }
         }
     }
