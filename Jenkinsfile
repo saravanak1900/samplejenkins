@@ -17,6 +17,15 @@ pipeline {
                 sh "uptime"
             }
         }
+stage('Vacate india - work in UK - Settledown') {
+            steps {
+                echo "Hello Europe!"
+                sh "echo Enjoying whisky"
+                sh "hostname"
+                sh "uptime"
+            }
+        }
+
 
     }
 }
