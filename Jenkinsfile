@@ -9,15 +9,15 @@ pipeline {
                 sh "uptime"
             }
         }
-        stage('Vacate india - work in UK') {
+        stage('Prepare for Interview') {
             steps {
-                echo "Hello Europe!"
-                sh "echo Enjoying whisky"
+                echo "Hello Devops"
+                sh "echo Enjoying AWS"
                 sh "hostname"
                 sh "uptime"
             }
         }
-stage('Vacate india - work in UK - Settledown') {
+       stage('Tier2 Visa') {
             steps {
                 echo "Hello Europe!"
                 sh "echo Enjoying whisky"
