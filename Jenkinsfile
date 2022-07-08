@@ -9,7 +9,7 @@ pipeline {
                 sh "uptime"
             }
         }
-        stage('Vacate india') {
+        stage('Vacate india - work in UK') {
             steps {
                 echo "Hello Europe!"
                 sh "echo Enjoying whisky"
