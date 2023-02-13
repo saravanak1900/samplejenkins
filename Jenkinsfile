@@ -3,24 +3,24 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Hello Europe!"
+                echo "Stage 1 Build"
                 sh "echo Hello from the shell"
                 sh "hostname"
                 sh "uptime"
             }
         }
-        stage('Prepare for Interview') {
+        stage('Stage 2 Copy to Nexus') {
             steps {
-                echo "Hello Devops"
-                sh "echo Enjoying AWS"
+                echo "Hello Stage 2"
+                sh "echo Copying to Nexus"
                 sh "hostname"
                 sh "uptime"
             }
         }
-       stage('Tier2 Visa') {
+       stage('Stage 3 Final') {
             steps {
-                echo "Hello Europe!"
-                sh "echo Enjoying whisky"
+                echo "Stage 3 Final"
+                sh "echo Stage 3 Final"
                 sh "hostname"
                 sh "uptime"
             }
